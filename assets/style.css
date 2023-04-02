@@ -32,12 +32,20 @@ body{
     background-color: #D9D9D9;   
 }
 .disney{
-    margin:0 0 0 30px;
+    margin:0 0 0 28px;
 }
 .menu{
     display: flex;
     list-style-type: none;
     color: #D0D1D4;
     font-style:normal;
-    
+   
+}
+
+.menu li{
+    margin:0 0 0 28px;
+}
+li k{
+    color:#FFAA05;
+
 }
