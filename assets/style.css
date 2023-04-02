@@ -1,3 +1,43 @@
 body{
     background-color: #131a28;
 }
+.rectangles{
+    margin:0 0 0 30px;
+}
+.rectangle1, .rectangle2{
+    margin-bottom: 10px;
+}
+
+#nav{
+    display: flex;
+    margin:30px 0 0 0;
+}
+.rectangle1
+{
+    height: 6px;
+    width: 50px;
+    background-color: #D9D9D9;
+}
+.rectangle2
+{
+    height: 4px;
+    width: 50px;
+    background-color: #D9D9D9; 
+    
+}
+.rectangle3
+{
+    height: 3px;
+    width: 50px;
+    background-color: #D9D9D9;   
+}
+.disney{
+    margin:0 0 0 30px;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    color: #D0D1D4;
+    font-style:normal;
+    
+}
