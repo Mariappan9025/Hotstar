@@ -1,20 +1,32 @@
 body{
     background-color: #131a28;
+    Position:relative;
+    width:100%;
+}
+*{
+    box-sizing: border-box;
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 2%;
+    background: #131a28;
+    align-items: center;
+    z-index:10;
 }
 .rectangles{
-    margin:0 0 0 30px;
+   padding-right: 10px;
 }
 .rectangle1, .rectangle2{
-    margin-bottom: 10px;
-}
-
-#nav{
-    display: flex;
-    margin:30px 0 0 0;
+    margin-bottom: 7px;
 }
 .rectangle1
 {
-    height: 6px;
+    height: 5px;
     width: 50px;
     background-color: #D9D9D9;
 }
@@ -33,19 +45,70 @@ body{
 }
 .disney{
     margin:0 0 0 28px;
+    height:auto;
 }
-.menu{
+.menu {
+    margin-top: 10px;
     display: flex;
-    list-style-type: none;
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .menu-items  {
+    margin-left: 20px;
+    text-transform: capitalize;
     color: #D0D1D4;
-    font-style:normal;
-   
-}
-
-.menu li{
-    margin:0 0 0 28px;
-}
-li k{
+    opacity: 0.9;
+    font-family: sans-serif;
+  }
+  
+  .SSL {
+    display: block;
+    margin-left: auto;
+  }
+  .searchbox {
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    width: 250px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .btn {
+    background: #1f80e0;
+    height: 30px;
+    padding: 0 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .log{
+    color: #D0D1D4;
+    opacity: 0.9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+h2{
     color:#FFAA05;
-
+    padding: 20px;
+    font-family: sans-serif;
+}
+.kaduva{
+  padding-left: 800px;
+  padding-top:  70px;
+  height: 60%;
 }
