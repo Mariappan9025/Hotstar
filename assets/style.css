@@ -85,25 +85,23 @@ text-decoration: none;
   font-weight: 500;
  
 }
-.fa-solid{
-  color:#fff;
-  
-}
 
 
 
-.btn {
+.button {
   background: #1f80e0;
-  height: 30px;
-  padding: 0 20px;
-  color: #fff;
-  border-radius: 5px;
   border: none;
-  outline: none;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin: 0 10px;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 2px;
+  font-weight: bolder;
+  font-family:sans-serif;
+  border-radius:5px;
+
 }
 
 .log{
